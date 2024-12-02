@@ -16,13 +16,6 @@ public class Main {
         int lengthSecond = secondString.length();
 
         // Виведення результату порівняння
-        if (lengthFirst > lengthSecond) {
-            System.out.println("Перший рядок має більше символів.");
-        } else if (lengthSecond > lengthFirst) {
-            System.out.println("Другий рядок має більше символів.");
-        } else {
-            System.out.println("Рядки мають однакову кількість символів.");
-        }
 
         scanner.close();
     }
